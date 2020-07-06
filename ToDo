@@ -1,0 +1,35 @@
+3D olacak
+hedef : maksimum puana ulaşmak
+Engeller:
+  1- boşluklar aşağa düşer
+  2- engeller
+Mekanikler:
+  1- sağ, sol, zıplama ve eğilme (animasyon varsa)
+  1- Her 20 saniyede hızın artması
+  2- altın toplama
+  
+  
+Start Ekranı:
+  Ekran dokununca başlar.
+  Ekranda max puan görünecek.
+  
+  
+Finish:
+  Puan gösteren ekran olacak.
+  Max puan gösterilecek.
+  Tekrar başla butonu olacak.
+  
+  ------------------------------------------------
+  YAPILACAKLAR
+  1- Karakter modeli bulunacak
+  2- Harita elemanları bulunacak
+  3- Harita tasarımı random sürekli
+    Engeller boşluklar kontrollu eklenecek (surekli peş peşe boşluk gelemez.)
+    Altınlar haritaya eklenecek.
+  4- Karakteri koşturma
+  5- Karakterin hareketleri (sol sağ vs.)
+  6- Puan toplama mekaniği
+  7- Zorlaştırma (hızlandırma 20 sn)
+  8- Giriş ekranı tasarlama
+  9- Finish ekran tasarlama
+  10- Best score set ve get.
