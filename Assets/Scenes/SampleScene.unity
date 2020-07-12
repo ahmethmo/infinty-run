@@ -326,10 +326,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.035
+  m_Radius: 0.022914916
   m_Height: 0.15
   m_Direction: 1
-  m_Center: {x: 0, y: 0.07, z: 0}
+  m_Center: {x: 0.0012230277, y: 0.07000001, z: 0}
 --- !u!143 &1098501251
 CharacterController:
   m_ObjectHideFlags: 0
@@ -342,12 +342,12 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 0.15
-  m_Radius: 0.035
+  m_Radius: 0.02291492
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.07, z: 0}
+  m_Center: {x: 0.001223028, y: 0.07000001, z: 0}
 --- !u!114 &1098501252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,8 +362,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forwardSpeed: 5
   laneDistance: 1.3
-  JumpForce: 2
-  Gravity: -2
+  JumpForce: 8
+  Gravity: -30
+  dead: 0
+  anim: {fileID: 0}
 --- !u!4 &1098501254 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 442204, guid: b983f2df64c3638469fdfbcf17545dd3,
@@ -437,6 +439,34 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 11134894, guid: b983f2df64c3638469fdfbcf17545dd3, type: 3}
+      propertyPath: m_Animations.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11134894, guid: b983f2df64c3638469fdfbcf17545dd3, type: 3}
+      propertyPath: m_Animations.Array.data[1]
+      value: 
+      objectReference: {fileID: 7400000, guid: e54e8a86a161a52409c0fed988d94829, type: 3}
+    - target: {fileID: 11134894, guid: b983f2df64c3638469fdfbcf17545dd3, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: 73a6f92ebaf916e4da47e6f0a01b3ac6, type: 3}
+    - target: {fileID: 11134894, guid: b983f2df64c3638469fdfbcf17545dd3, type: 3}
+      propertyPath: m_Animations.Array.data[2]
+      value: 
+      objectReference: {fileID: 7400000, guid: 649206ae6f32957458cf1095c1f31d10, type: 3}
+    - target: {fileID: 11134894, guid: b983f2df64c3638469fdfbcf17545dd3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11134894, guid: b983f2df64c3638469fdfbcf17545dd3, type: 3}
+      propertyPath: m_Animations.Array.data[3]
+      value: 
+      objectReference: {fileID: 7400000, guid: 68c728abbd6b7f044b89c6836d49bd5f, type: 3}
+    - target: {fileID: 11134894, guid: b983f2df64c3638469fdfbcf17545dd3, type: 3}
+      propertyPath: m_Animations.Array.data[4]
+      value: 
+      objectReference: {fileID: 7400000, guid: d86fe3427b5156b488de5684f1c2be60, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b983f2df64c3638469fdfbcf17545dd3, type: 3}
 --- !u!1 &1742104790
