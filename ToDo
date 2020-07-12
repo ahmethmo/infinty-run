@@ -21,13 +21,13 @@ Finish:
   
   ------------------------------------------------
   YAPILACAKLAR
-  1- Karakter modeli bulunacak    (DONE)
-  2- Harita elemanları bulunacak  (DONE)
-  3- Harita tasarımı random sürekli
+  1-(DONE) Karakter modeli bulunacak            
+  2-(DONE) Harita elemanları bulunacak          
+  3-(DONE) Harita tasarımı random sürekli      
     Engeller boşluklar kontrollu eklenecek (surekli peş peşe boşluk gelemez.)
     Altınlar haritaya eklenecek.
-  4- Karakteri koşturma
-  5- Karakterin hareketleri (sol sağ vs.)
+  4-(DONE) Karakteri koşturma                   
+  5-(DONE) Karakterin hareketleri (sol sağ vs.) 
   6- Puan toplama mekaniği
   7- Zorlaştırma (hızlandırma 20 sn)
   8- Giriş ekranı tasarlama
